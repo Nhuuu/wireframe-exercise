@@ -1,11 +1,11 @@
-*{
+* {
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
 }
 
 header {
   height: 95px;
-  background-color: #999;
+  background-color: #444;
   position: relative;
   margin-bottom: 30px;
 }
@@ -16,7 +16,7 @@ main {
 }
 
 footer {
-  background-color: #444;
+  background-color: #333;
   height: 100px;
 }
 
@@ -35,13 +35,19 @@ nav > ul {
 
 nav > ul > li {
   float: left;
-  margin-right: 50px;
+  margin-right: 70px;
   /* line-height vertically centers it */
-  line-height: 60px; 
+  line-height: 70px; 
 }
 
 nav > ul > li:first-child {
   margin-right: 25px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #888;
+  font-family: Helvetica, sans-serif;
 }
 
 main > img:first-child {
@@ -50,7 +56,6 @@ main > img:first-child {
 
 main > ul > li {
   float: left;
-  /* margin-right: 30px; */
 }
 
 main > ul > li:nth-child(3n + 2) {
@@ -75,6 +80,7 @@ main > article > section {
   width: 50%;
   float: right;
   padding-left: 30px;
+  color: #333;
 }
 
 section {
