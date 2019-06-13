@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
 
 header {
@@ -76,10 +77,34 @@ main > article > section {
   padding-left: 30px;
 }
 
+section {
+  position: relative;
+  height: 400px;
+}
+
 section > button {
   width: 150px;
   height: 35px;
   background-color: #111;
-  color: white;
+  color: whitesmoke;
+  position: absolute;
+  bottom: 0;
 }
 
+section > button:hover {
+  background-color: #eee;
+  color: #111;
+  transition: 350ms;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-bottom: 7px;
+}
+
+p {
+  font-size: 1em;
+  overflow: auto;
+  height: 330px;
+  font-style: italic
+}
